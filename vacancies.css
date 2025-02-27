@@ -1,0 +1,70 @@
+header {
+position: fixed;
+top: 0;
+padding: 20px 0;
+}
+
+body {
+    font-family: "Yu Gothic UI Semilight", "Yu Gothic UI";
+    background-color: #162d40;
+    color: white;
+    padding: 170px 50px 50px 300px;
+}
+
+a {
+    text-decoration: none;
+    color: #A9C6E2;
+}
+
+h1 {
+    font-size: 3em;
+    color: #3e81b4;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.no-vacancies {
+    margin-top: 100px;
+    font-style: italic;
+    color: white;
+}
+
+nav {
+    background-color: #adcbe3;
+    color: white;
+    padding: 23px;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    margin: 5px;
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+footer {
+    text-align: center;
+    padding: 100px;
+}
+  
+footer img {
+    width: 60px;
+    height: 60px;
+}
+
+footer a {
+    margin: 5px;
+}
